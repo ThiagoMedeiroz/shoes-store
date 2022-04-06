@@ -9,3 +9,273 @@
   --title-color:#000000;
   --white-color:#FFFFFF;
 }
+
+
+header{
+  width: 1280px;
+  height: 122px;
+  box-shadow: 0px 1px 20px 0px rgba(139, 139, 139, 0.65);
+  align-items: center;
+  
+
+}
+
+.container img{
+  position: absolute;
+  width: 209px;
+  height: 104px;
+  left: 19px;
+  top: 9px;
+  cursor: pointer;
+}
+
+
+.menu {
+  color: #777777;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  position: absolute;
+  width: 531px;
+  height: 34px;
+  left: 710px;
+  top: 44px;
+  cursor: pointer;
+}
+
+
+.banner{
+  position: absolute;
+  align-items: center;
+  width: 1280px;
+  height: 235px;
+  left: 0px;
+  top: 122px;
+}
+
+
+
+main h1{
+ position: absolute;
+ width: 596px;
+ height: 82px;
+ left: 342px;
+ top: 425px;
+ font-family: 'Open Sans';
+ font-style: normal;
+ font-weight: 800;
+ font-size: 60px;
+ line-height: 82px;
+ text-align: center;
+ color: #000000;
+}
+
+
+
+.modelo1{
+ position: absolute;
+ align-items: center;
+ width: 400px;
+ height: 600px;
+ left: 113px;
+ top: 668px;
+}
+
+
+
+.modelo2{
+ position: absolute;
+ align-items: center;
+ width: 600px;
+ height: 757.94px;
+ left: 567px;
+ top: 589px;
+}
+
+
+
+.promoção{
+  position: absolute;
+  width: 1280px;
+  height: 662px;
+  left: 0px;
+  top: 1554px;
+  background-color:  #C2185B;
+}
+
+
+
+main h2{
+ position: absolute;
+ text-align: center;
+width: 188px;
+height: 60px;
+left: 546px;
+top: 1615px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 44px;
+line-height: 60px;
+color: #FFFFFF;
+}
+
+
+
+.informação-promo1{
+  position: absolute;
+  width: 260px;
+  height: 388px;
+  left: 102px;
+  top: 1729px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+ }
+ 
+
+.nome-salto1{
+position: absolute;
+width: 226px;
+height: 22px;
+left: 113px;
+top: 2047px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+color: #000000;
+}
+
+.preço1{
+ position: absolute;
+ width: 69px;
+ height: 22px;
+ left: 113px;
+ top: 2070px;
+ font-family: 'Open Sans';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 22px;
+ color: #000000;
+}
+
+.informação-promo2{
+  position: absolute;
+width: 260px;
+height: 388px;
+left: 380px;
+top: 1729px;
+
+background: #FFFFFF;
+box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+cursor: pointer;
+}
+
+.nome-salto2{
+ position: absolute;
+ width: 226px;
+ height: 22px;
+ left: 390px;
+ top: 2042px;
+ font-family: 'Open Sans';
+ font-style: normal;
+ font-weight: 600;
+ font-size: 16px;
+ line-height: 22px;
+ color: #000000;
+}
+
+.preço2{
+ position: absolute;
+ width: 69px;
+ height: 22px;
+ left: 390px;
+ top: 2065px;
+ font-family: 'Open Sans';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 22px;
+ color: #000000;
+}
+
+.informação-promo3{
+ position: absolute;
+ width: 260px;
+ height: 388px;
+ left: 658px;
+ top: 1729px;
+ background: #FFFFFF;
+ box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+ cursor: pointer;
+}
+
+.nome-salto3{
+ position: absolute;
+ width: 226px;
+ height: 22px;
+ left: 668px;
+ top: 2042px;
+ font-family: 'Open Sans';
+ font-style: normal;
+ font-weight: 600;
+ font-size: 16px;
+ line-height: 22px;
+ color: #000000;
+}
+
+.preço3{
+ position: absolute;
+ width: 74px;
+ height: 23px;
+ left: 668px;
+ top: 2065px;
+ font-family: 'Open Sans';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 17px;
+ line-height: 23px;
+ color: #000000;
+}
+
+.informação-promo4{
+ position: absolute;
+ width: 260px;
+ height: 388px;
+ left: 936px;
+ top: 1729px;
+ background: #FFFFFF;
+ box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+ cursor: pointer;
+}
+
+.nome-salto4{
+ position: absolute;
+ width: 215px;
+ height: 22px;
+ left: 946px;
+ top: 2042px;
+ font-family: 'Open Sans';
+ font-style: normal;
+ font-weight: 600;
+ font-size: 16px;
+ line-height: 22px;
+ color: #000000;
+}
+
+.preço4{
+ position: absolute;
+ width: 84px;
+ height: 20px;
+ left: 946px;
+ top: 2065px;
+ font-family: 'Open Sans';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 17px;
+ line-height: 23px;
+ color: #000000;
+}
