@@ -333,3 +333,76 @@ section h2{
   left: 668px;
   top: 2379px;
 }
+
+
+footer{
+  position: absolute;
+  width: 1280px;
+  height: 248px;
+  left: 0px;
+  top: 3434px;
+  background: #C2185B;
+  }
+
+  .container2 img{
+    position: absolute;
+    width: 233px;
+    height: 123px;
+    left: 127px;
+    top: 19px;
+    
+  }
+
+  .shoes-info{
+    position: absolute;
+    width: 255px;
+    height: 91px;
+    top: 119px;
+    left:128px;
+    text-align: left;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    
+    color: #FFFFFF;
+  }
+
+  .categorias{
+    position: absolute;
+    width: 104px;
+    height: 137px;
+    left: 646px;
+    top: 56px;
+    bottom: 55px;
+
+    font-family: 'Open Sans';
+    line-height: 27px;
+
+    color: #FFFFFF;
+
+  }
+
+  .categorias p{
+    cursor: pointer;
+  }
+
+  .institucional{
+    position: absolute;
+    width: 246px;
+    height: 161px;
+    left: 886px;
+    top: 56px;
+    bottom: 31px;
+
+    font-family: 'Open Sans';
+    line-height: 27px;
+
+    color: #FFFFFF;
+  }
+
+  .institucional p{
+    cursor: pointer;
+  }
