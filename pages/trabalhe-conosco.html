@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shoes Store - Trabalhe Conosco</title>
 
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="./style1.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -30,55 +30,72 @@
         <h1>Faça parte do nosso time</h1>
 
         <div>
-          <form action="/register" method="POST">
-            <label for="name">Nome</label>
-            <input type="text" name="name" id="name"/>
+           <div class="formulario">
+             <form action="/register" method="POST">
+              <label for="name">Nome</label>
+              <input type="text" name="name" id="name"/>
+            
+             <label for="email">Email</label>
+             <input type="email" name="email" id="email"/>
   
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email"/>
+             <label for="telefone">Telefone</label>
+             <input type="tel" name="tel" id="telefone"/>
   
-            <label for="telefone">Telefone</label>
-            <input type="tel" name="tel" id="telefone"/>
-  
-            <label for="departamentos">Departamentos</label>
-            <input type="text" name="text" id="departamentos"/></main>
-  
-  
+             <label for="departamentos">Departamentos</label>
+             <input type="text" name="text" id="departamentos"/>
+            </div> 
+            
+             <p><strong>Disponibilidade</strong></p>
             <div class="disponibilidade">
+              <input type="checkbox" name="disponibilidade" value="Disponibilidade">
               <label for="disponibilidade">Integral(8)</label>
-              <input type="checkbox" name="disponibilidade" value="Disponibilidade">
-  
-              <label for="disponibilidade">Meio perído (4)</label>
+              
               <input type="checkbox" name="disponibilidade" value="Disponibilidade" >
-  
-              <label for="disponibilidade">Freelancer</label>
+              <label for="disponibilidade">Meio perído (4)</label>
+          
               <input type="checkbox" name="disponibilidade" value="Disponibilidade">
+              <label for="disponibilidade">Freelancer</label>
+            </div>
+             
+            <p><strong> Qual a melhor forma para entrarmos em contato com você?</p></strong>
+            <div class="contato">
+
+              <input type="radio" name="contato" value="Qual a melhor forma para entrarmos em contato com você?">
+              <label for="contato">Email</label>
+  
+              <input type="radio" name="contato" value="Qual a melhor forma para entrarmos em contato com você?">
+              <label for="contato">Ligação</label>
+            
+              <input type="radio" name="contato" value="Qual a melhor forma para entrarmos em contato com você?">
+              <label for="contato">WhatsApp</label>
             </div>
   
-            <label for="contato">Email</label>
-            <input type="radio" name="contato" value="Qual a melhor forma para entrarmos em contato com você?">
-  
-            <label for="contato">Ligação</label>
-            <input type="radio" name="contato" value="Qual a melhor forma para entrarmos em contato com você?">
+            <p>Mensagem</p>
+          
+            <textarea class="texto"></textarea>
+           
+          
+            <div class="curriculo"> 
+              <label for="curriculo">Curriculo</label>
+              <input type="file" name="curriculo" value="upload">
+            </div>
+      
+               <button class="enviar" type="submit"> enviar</button>
             
-          
-            <label for="contato">WhatsApp</label>
-            <input type="radio" name="contato" value="Qual a melhor forma para entrarmos em contato com você?">
-  
-            <textarea></textarea>
-          
-            <label for="curriculo">Curriculo</label>
-            <input type="file" name="curriculo" value="upload">
-        
-            <button type="submit">Enviar</button>
           </form>
         </div>
 
-        <div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis cupiditate ipsa esse consequatur accusantium perferendis, consequuntur iure, fuga debitis facere atque suscipit dignissimos rerum, consectetur et aliquid veritatis reprehenderit ullam.
-        </div>
         
+
       </section>
+      <section><div class="informacao">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+       <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </p>
+     </div></section>
     </main>
   </body>
+  
+
 </html>

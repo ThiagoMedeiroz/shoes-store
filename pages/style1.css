@@ -1,58 +1,155 @@
 header{
-    width: 1280px;
-    height: 122px;
-    box-shadow: 0px 1px 20px 0px rgba(139, 139, 139, 0.65);
-    align-items: center;
-    
+  width: 1280px;
+  height: 122px;
+  box-shadow: 0px 1px 20px 0px rgba(139, 139, 139, 0.65);
+  align-items: center;
   
-  }
-  .container img{
-    width: 209px;
-    height: 104px;
-    cursor: pointer;
-  }
-  
-  
-  .menu {
-    color: #777777;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    width: 531px;
-    height: 34px;
-    cursor: pointer;
-  }
+}
+
+.container img{
+ 
+  width: 209px;
+  height: 104px;
+  left: 19px;
+  top: 9px;
+  cursor: pointer;
+}
 
 
-main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.menu {
+  color: #777777;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  position: absolute;
+  width: 531px;
+  height: 34px;
+  left: 710px;
+  top: 44px;
+
+  cursor: pointer;
+}
+
+
+
+.trabalhe-conosco h1{
+  display:inline-block;
+  height: 55px;
+  width: 585px;
+  margin-left:123px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 39px;
+  line-height: 53px;
+  color: #575757;
 }
 
 .disponibilidade {
-  display:flex;
-  flex-direction: column;
+display:flex;
+justify-content: flex-start;
+margin-left: 123px;
 }
 
 
 
+
+
+main{
+ flex-direction: row;
+ display: flex;
+
+ 
+
+}
 
 form {
 display: flex;
-flex-direction: column;
-margin: 268px 619px 647px 121px;
+flex-direction:column;
+margin-left: 123px;
+line-height: 25px;
+ 
 }
 
+.formulario input[type=text] {
+ width:538px;
+height: 15px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+margin-block-end: 15px;
+color: #9B9B9B;
+}
 
+  .formulario input[type=email]{
+width:538px;
+height: 15px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #9B9B9B;
+margin-block-end: 15px;
+  }
+
+  .formulario input[type=tel]{
+  width:538px;
+  height: 15px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin-block-end: 15px;
+  color: #9B9B9B;
+  }
+
+  p{
+    margin-left: 123px;
+  }
+  
+.contato{
+  margin-left: 123px;
+}
+
+.texto {
+  margin-left: 123px;
+  border: 1px solid #9B9B9B;
+  height: 78px;
+  width: 537px;
+  border-radius: 0px;
+  margin-block-end: 20px;
 
   
+}
+.curriculo{
+  margin-left: 123px;
+  margin-block-end: 50px;
+}
+
+.enviar{
+  margin-left: 123px;
+  background-color:  #C2185B;
+  Width: 537px;
+  Height:33px;
+  text-align: center;
+  padding-top: 5px;
+  margin-block-end: 50px;
+
+}
   
+.informacao{
+  height: 448px;
+  width: 464px;
+  padding-top: 130px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #575757;
+}
 
-
-
-
-
-
-
-  
