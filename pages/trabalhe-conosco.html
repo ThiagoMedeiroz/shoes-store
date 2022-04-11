@@ -6,19 +6,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shoes Store - Trabalhe Conosco</title>
 
-    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap"
+      rel="stylesheet">
   </head>
   <body>
-    <section class="trabalhe-conosco">
-      <h1>Faça parte do nosso time</h1>
+    <header> 
+      <nav class="container">
+        <img src="../images/logo-color.png" alt="Shoes" />
+        <div class="menu">
+          <h1>TODOS OS PRODUTOS</h1>
+          <h1>COLEÇÕES</h1>
+          <h1>OUTLET</h1>
+        </div>
+      </nav>
+    </header>
 
-      <form action="/register" method="POST">
-        <label for="nome">Nome:</label>
-        <input type="text" name="name" id="name" />
-        <input type="text" />
-        <input type="text" />
-        <input type="text" />
-      </form>
-    </section>
+    <main>
+      <section class="trabalhe-conosco">
+        <h1>Faça parte do nosso time</h1>
+
+        <div>
+          <form action="/register" method="POST">
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name"/>
+  
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email"/>
+  
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="tel" id="telefone"/>
+  
+            <label for="departamentos">Departamentos</label>
+            <input type="text" name="text" id="departamentos"/></main>
+  
+  
+            <div class="disponibilidade">
+              <label for="disponibilidade">Integral(8)</label>
+              <input type="checkbox" name="disponibilidade" value="Disponibilidade">
+  
+              <label for="disponibilidade">Meio perído (4)</label>
+              <input type="checkbox" name="disponibilidade" value="Disponibilidade" >
+  
+              <label for="disponibilidade">Freelancer</label>
+              <input type="checkbox" name="disponibilidade" value="Disponibilidade">
+            </div>
+  
+            <label for="contato">Email</label>
+            <input type="radio" name="contato" value="Qual a melhor forma para entrarmos em contato com você?">
+  
+            <label for="contato">Ligação</label>
+            <input type="radio" name="contato" value="Qual a melhor forma para entrarmos em contato com você?">
+            
+          
+            <label for="contato">WhatsApp</label>
+            <input type="radio" name="contato" value="Qual a melhor forma para entrarmos em contato com você?">
+  
+            <textarea></textarea>
+          
+            <label for="curriculo">Curriculo</label>
+            <input type="file" name="curriculo" value="upload">
+        
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis cupiditate ipsa esse consequatur accusantium perferendis, consequuntur iure, fuga debitis facere atque suscipit dignissimos rerum, consectetur et aliquid veritatis reprehenderit ullam.
+        </div>
+        
+      </section>
+    </main>
   </body>
 </html>
