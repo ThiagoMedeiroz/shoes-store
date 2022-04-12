@@ -153,3 +153,44 @@ margin-block-end: 15px;
   color: #575757;
 }
 
+footer {
+  width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #C2185B;
+  padding: 19px 140px;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+
+footer .container2 {
+  max-width: 255px;
+  width: 100%;
+  line-height: 19px;
+}
+
+.categorias {
+  line-height: 27px;
+}
+
+
+footer article h6 {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: lowercase;
+}
+
+footer article ul li {
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.institucional {
+  margin-top: 20px;
+  line-height: 27px;
+}
